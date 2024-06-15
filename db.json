@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": "fbd2",
+      "name": "Frieren",
+      "image": "https://i.pinimg.com/736x/45/27/ae/4527aee6ab5b1fb4399c8730d772ec55.jpg"
+    },
+    {
+      "id": "8e20",
+      "name": "Son",
+      "image": "https://i.pinimg.com/564x/20/b1/1a/20b11aa1187ad281328ff924a4282e72.jpg"
+    },
+    {
+      "id": "3c18",
+      "name": "Chahae",
+      "image": "https://i.pinimg.com/564x/93/38/25/9338258e37b098d04f1d19d193cea25f.jpg"
+    },
+    {
+      "id": "419d",
+      "name": "Rimuru",
+      "image": "https://i.pinimg.com/564x/d8/55/6a/d8556a4a450d828a2953d205280d2ba1.jpg"
+    },
+    {
+      "id": "a8e8",
+      "name": "Raiden",
+      "image": "https://i.pinimg.com/564x/85/39/57/8539576d2c6b6ba7f7aad15a30a814db.jpg"
+    },
+    {
+      "id": "f01a",
+      "name": "Yuta",
+      "image": "https://i.pinimg.com/564x/cc/be/81/ccbe81386d1901d8128c32273ddd03ba.jpg"
+    },
+    {
+      "id": "3cf9",
+      "name": "Senju",
+      "image": "https://i.pinimg.com/564x/7c/9e/ee/7c9eeeeef9c6dc97b2c998c1481fa8ff.jpg"
+    },
+    {
+      "id": "f31a",
+      "name": "Makima",
+      "image": "https://i.pinimg.com/564x/a0/76/3f/a0763f550b1fb15d04b00a6ae58b4fdd.jpg"
+    },
+    {
+      "id": "716c",
+      "name": "Luffy",
+      "image": "https://i.pinimg.com/564x/11/ad/1e/11ad1e7ee60f2c84803a78b54eeb27ea.jpg"
+    },
+    {
+      "id": "f08e",
+      "name": "Yae Miko",
+      "image": "https://i.pinimg.com/564x/24/11/50/2411500544e539b1f556de36605d2dd1.jpg"
+    },
+    {
+      "id": "eb23",
+      "name": "Ayankoji",
+      "image": "https://i.pinimg.com/564x/f7/05/3c/f7053cb95c3ec4c292ee2eff9a005818.jpg"
+    },
+    {
+      "id": "0061",
+      "name": "Itachi",
+      "image": "https://i.pinimg.com/564x/17/7d/6c/177d6c46263714608fd3d09c7e5be272.jpg"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: cadetblue;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+img {
+  width: 200px;
+  border-radius: 20px;
+}
+input {
+  padding: 15px 20px;
+  border-radius: 20px;
+  border: none;
+  margin: 7px 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+
+.block {
+  border-radius: 20px;
+  margin-top: 50px;
+  background-color: blueviolet;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.block_in {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  color: #fff;
+}
+
+.head_list {
+  cursor: pointer;
+  transform: scale(1);
+}
+.head_list:hover {
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+
+.block_head {
+  margin: 20px 0;
+  border-radius: 20px;
+  padding: 20px 25px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+}
+
+.block_head::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.block_head::before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #ff00c8,
+    #ff0000
+  );
+
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  filter: blur(8px);
+  transition: opacity 0.3s ease-in-out;
+  animation: glowning 20s linear infinite;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+@keyframes glowning {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.block_head:hover::before {
+  opacity: 1;
+}
+
+/* .block_head:active::after {
+  background: transparent;
+}
+
+.block_head:active {
+  color: #111;
+  font-weight: bold;
+} */
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.head_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 300px;
+}
+.head_list h2 {
+  margin: 8px 0;
+}
+.head_data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
